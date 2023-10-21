@@ -1,20 +1,23 @@
 {
-    "name": "com.yolo.ability-system",
-    "version": "0.1.1",
-    "displayName": "Ability System",
-    "description": "This is an example package",
-    "unity": "2022.2",
-    "documentationUrl": "https://example.com/",
-    "changelogUrl": "https://example.com/changelog.html",
-    "licensesUrl": "https://example.com/licensing.html",
-   "keywords": [
-      "Ability System",
-      "System",
-      "Abilities"
-    ],
-    "author": {
-      "name": "Unity",
-      "email": "unity@example.com",
-      "url": "https://www.unity3d.com"
-    }
+  "name": "com.yolo.ability-system",
+  "version": "0.1.1",
+  "displayName": "Ability System",
+  "description": "This is an example package",
+  "unity": "2022.2",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "Ability System",
+    "System",
+    "Abilities"
+  ],
+  "dependencies": {
+    "com.unity.inputsystem": "1.5.1"
+  },
+  "author": {
+    "name": "Yolo",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
   }
+}
